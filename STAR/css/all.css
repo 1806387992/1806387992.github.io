@@ -1,0 +1,32 @@
+@import url("bootstrap-theme.css");
+@import url("bootstrap.css");
+@import url("../fonts/font-awesome-4.2.0/css/font-awesome.min.css");
+@import url("set2.css");
+@import url("layer.css");
+@import url("font_responsive.css");
+@import url("nav.css");
+
+/*按钮样式*/
+.mybtn{
+	clear: both;
+	margin: 0px auto;
+	padding: 60px 0;
+	text-align: center;
+}
+.mybtn a{
+	display: inline-block;
+	border:1px solid deepskyblue;
+	color: black;
+	padding: 0.7em 2em;
+	outline: none;
+	/*background-color: white;*/
+	transition: background-color 0.35s;
+	-webkit-transition: background-color 0.35s;
+	-moz-transition: background-color 0.35s;
+}
+.mybtn a:hover{
+	color: white;
+	background-color: deepskyblue;
+	cursor: pointer;
+	text-decoration: none;
+}

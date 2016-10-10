@@ -1,0 +1,184 @@
+<%@page contentType="text/html"%>
+<%@page pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!--
+        	作者：offline
+        	时间：2016-10-09
+        	描述：http-equiv 规定文档的字符集
+        -->
+		<!--<meta charset="utf-8" />-->
+		<title>star首页--以图会友</title>
+		
+		<link rel="stylesheet" href="css/all.css" /> 
+		<link rel="stylesheet" href="css/index.css" /> 
+		
+	</head>
+	<body>
+		<!--返回顶部按钮 fixed-->
+		<section class="goto_top">
+			<a ><span><i class="fa fa-arrow-circle-up"></i></span></a>
+		</section>
+		<!--页面开始顶部几个图标和登入注册按钮-->
+		<section id="top_section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
+						<ul id="top_ul">
+							<li><a href="javascript:void(0);" id="facebook"><span><i class="fa fa-facebook"></i></span></a></li>
+							<li><a href="javascript:void(0);" id="weibo"><span><i class="fa fa-weibo"></i></span></a></li>
+							<li><a href="javascript:void(0);" id="weixin"><span><i class="fa fa-weixin"></i></span></a></li>
+							<li><a href="javascript:void(0);" id="qq"><span><i class="fa fa-qq"></i></span></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4" >
+						<div class="register">
+							<a href="javascript:void(0);" id="login">登入</a>
+							<a href="javascript:void(0);" id="register">注册</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--nav 开始-->
+		<section id="nav_section" style="background-color: white;border-bottom: 1px solid aliceblue;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+						<a href="index.jsp"><img src="images/logo.png"  id="logo" /></a>
+					</div>
+					<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+						<ul id="nav_ul">
+							<li><a href="my_page.html">我的主页</a></li>
+							<li><a href="#">交流社区</a></li>
+							<li><a href="#">关于我们</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--nav结束-->
+		<!--宣传图及宣传语开始-->
+		<section >
+			<div id="propaganda" style="width: 100%;position: relative;">
+				<div id="main_img">
+					<img src="images/photo_girl.jpg" />
+				</div>
+				<div >
+					<div id="propaganda1">世界从不缺少美</div>
+					<div id="propaganda2">只缺少发现美的</div>
+					<div id="propaganda3"><strong>眼睛</strong></div>
+					<div class="mybtn"><a id="btn2">发现美</a></div>
+					<div class="mybtn"><a id="btn1">加入我们</a></div>
+				</div>
+			</div>
+		</section>
+		<!--宣传图及宣传语结束-->
+		
+		<!--猜你喜欢/最受欢迎模块-->
+		<section>
+			<div class="container">
+				<div class="may_like_title">
+					<span><i class="fa fa-heart blue"></i>&nbsp;&nbsp;本期最爱&nbsp;&nbsp;<i class="fa fa-heart blue"></i></span>
+				</div>
+				<div class="may_like_img">
+					<img src="images/tiananmen.jpg"/>
+					<div class="may_like_info" style="top: 10%;right: 5%;">
+						<h2>天安门</h2>
+						<p>清风摄 09/12/12</p>
+						<div>
+							<div ><span><i class="fa fa-heart-o blue"></i></span>&nbsp;&nbsp;45</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="may_like_title">
+					<span><i class="fa fa-heart blue"></i>&nbsp;&nbsp;最受欢迎&nbsp;&nbsp;<i class="fa fa-heart blue"></i></span>
+				</div>
+				<div class="may_like_img">
+					<img src="images/maple.jpg"/>
+					<div class="may_like_info" style="top: 20%;right: 40%;">
+						<h2>枫叶落地</h2>
+						<p>胡来摄 14/10/10</p>
+						<div>
+							<div ><span><i class="fa fa-heart-o blue"></i></span>&nbsp;&nbsp;1065</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="may_like_title">
+				<span><i class="fa fa-heart blue"></i>&nbsp;&nbsp;猜你喜欢&nbsp;&nbsp;<i class="fa fa-heart blue"></i></span>
+			</div>
+			<div class="grid">
+			<figure class="effect-kira">
+				<img src="images/11.jpg" alt="img17"/>
+				<figcaption>
+					<h2>Dark <span>Kira</span></h2>
+					<p>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-home"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-download"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-heart"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-share"></i></a>
+					</p>
+				</figcaption>			
+			</figure>
+			<figure class="effect-kira">
+				<img src="images/19.jpg" alt="img05"/>
+				<figcaption>
+					<h2>Dark <span>Kira</span></h2>
+					<p>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-home"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-download"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-heart"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-share"></i></a>
+					</p>
+				</figcaption>			
+			</figure>
+			</div>
+			
+			<div class="grid">
+			<figure class="effect-kira">
+				<img src="images/21.jpg" alt="img17"/>
+				<figcaption>
+					<h2>Dark <span>Kira</span></h2>
+					<p>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-home"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-download"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-heart"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-share"></i></a>
+					</p>
+				</figcaption>			
+			</figure>
+			<figure class="effect-kira">
+				<img src="images/33.jpg" alt="img05"/>
+				<figcaption>
+					<h2>Dark <span>Kira</span></h2>
+					<p>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-home"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-download"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-heart"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-fw fa-share"></i></a>
+					</p>
+				</figcaption>			
+			</figure>
+		</div>
+		<!--存放更多图片的容器-->
+		<div id="more_img"></div>
+		<!--加载更多的按钮-->
+		<div class="loadmore mybtn">
+			<a>加载更多</a>
+		</div>
+
+		</section>
+		<!--猜你喜欢/最受欢迎模块结束-->	
+		
+		<script type="text/javascript" src="js/jquery-3.0.0.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<script type="text/javascript" src="js/layer.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+		
+	</body>
+</html>

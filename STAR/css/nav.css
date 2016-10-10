@@ -1,0 +1,21 @@
+a:link,a:hover,a:active,a:visited{outline:none;text-decoration:none;}
+ul{margin: 0;}
+
+.nav_section{
+	width: 100%;
+	background-color: white;
+	box-shadow: 0.1px 0.1px 2px black;
+}
+#logo{
+	padding: 0.5em 0;
+	width: 30%;
+}
+#nav_ul{list-style: none;float: right;}
+#nav_ul li{display: inline-block;padding: 0.7em 2em ;}
+#nav_ul li a{color: #9CA5AB;position: relative;font-size: 1em;}
+#nav_ul li a:before,
+#nav_ul li a:after{position: absolute;opacity: 0;transition: opacity 0.35s,transform 0.35s;}
+#nav_ul li a:before{content: '\5b';left: -20px;top: -4px;transform: translate(20px,0);}
+#nav_ul li a:after{content: '\5d';right: -20px;top:-4px;transform: translate(-20px,0);}
+#nav_ul li a:hover:before,
+#nav_ul li a:hover:after{opacity: 1;transform: translate(0,0);}

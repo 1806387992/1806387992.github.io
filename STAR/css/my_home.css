@@ -1,0 +1,121 @@
+body{
+	background: none;
+    font-size: 14px;	
+    /*字体大小固定，不随窗口大小变化*/
+}
+.inputbox{
+	/*margin: 0 1%;*/
+	border: 1px solid darkgrey;
+	border-radius: 4px;
+	font-size: 1em;
+	height: 13em;
+	background: white;
+}
+.inputbox p,
+.textarea,
+.kind{
+	margin-left: 0.8em;
+	margin-right: 0.8em;
+}
+.inputbox p{margin-top:0.5em;margin-bottom: 0.3em;letter-spacing: 0.2em;font-size: 1.5em;}
+.textarea{
+	border: 1px solid #cccccc;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.15) inset;
+	padding: 0.3em;
+}
+.textarea textarea{
+	resize: none;
+	border: none;
+	-webkit-border: none;
+	width: 100%;
+	height: 6em;
+}
+.textarea textarea:focus{-webkit-border: none;}
+.textarea:focus{border: 1px solid darkorange;}
+.kind{mar}
+.kind a{
+	position: relative;
+	cursor: pointer;
+	display:inline-block;
+	padding:0.3em 1.3em 0.8em 0;
+	overflow: hidden;
+}
+/*图片a标签的样式，用input type=file的功能，用a的样式，因为input怎么弄都不是特别好看*/
+.kind input{
+	cursor: pointer;
+	position:absolute; 
+	right:0; 
+	top:0; 
+	opacity:0; 
+	filter:alpha(opacity=0); /*只为了兼容IE*/
+}
+/*在原有btn基础样式上进行改进*/
+.mybtn{padding: 0.2em 0;display: inline-block;float: right;}
+.kind .mybtn a{
+	padding:0.2em 1em 0.2em 1em;
+}
+/*发送框的表情包样式*/
+.faceDiv {
+	display: none;/*初始不显示，后面用js控制是否显示表情包*/
+	width: 500px;
+	height: 120px;
+	/*border-top: 1px solid #ccc;*/
+	position: absolute;
+	background-color: #fff;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	/*border-radius: 5px 5px 0 0;*/
+}
+.faceDiv>img {
+	background: #FFFFFF;
+	border: 1px solid #ccc;
+	float: left;
+	margin-left: -1px;
+	margin-top: -1px;
+	position: relative;
+	z-index: 99;
+	width: 2.5em;
+	height: 2.5em;
+	padding: 3px 3px 3px 3px;
+	cursor: pointer;
+}
+.faceDiv>img:hover {
+	background-color: #efefef;
+}
+.faceDiv>img:active {
+	padding: 4px 3px 2px 3px;/*使图像在被点击时有下移的感觉*/
+}
+.mymould{
+	margin-top: 2em;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	padding: 1em;
+	background: white;
+}
+.username{font-weight: bold;font-size: 1.5em;}
+.option{float: right;cursor: pointer;font-size: 1.5em;position: relative;}
+.option_list{
+	display: none;
+	list-style: none;
+	background: white;
+	border: #CCCCCC;
+	border-radius: 4px;
+	padding: 0;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	position: absolute;
+	top: 2em;
+	right: 2em;
+}
+.option_list li{
+	display: block;
+	padding: 0.4em 1.2em;
+	border-bottom: 1px solid #CCCCCC;
+	cursor: pointer;
+}
+.head_img{float: right;}
+.share_words{font-size: 1.2em;padding: 0.3em 0;}
+.picture img{
+	margin: 0.3em 0;
+    width:15em;
+    cursor: pointer;
+}

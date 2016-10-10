@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a:link,a:hover,a:active,a:visited{outline:none;text-decoration:none;}
+.blue{color: deepskyblue;}
+
+
+/*top_section的样式*/
+#top_section{border-bottom: 1px solid aliceblue; z-index: 9999;}
+#top_ul{
+	list-style: none;
+	margin: 0;
+}
+#top_ul li{
+	display: inline-block;
+	/*margin: 0.5em 1em 0.5em 0;*/
+	padding: 0.7em 1.5em 0.7em 0;
+}
+#top_ul li a{
+	color: #9ca5ab;  		/*控制图标的颜色*/
+}
+.register a{color: #9CA5AB;position: relative;top: 0.7em;float: right;margin: 0 1.5em 0 0;}
+.register a:hover{color: silver;}
+
+/*nav_section的样式*/
+#nav_section{
+	width: 100%;
+}
+#logo{
+	padding: 1em 0 1em 0;
+	width: 70%;
+}
+#nav_ul{list-style: none;float: right;margin: 0;}
+#nav_ul li{display: inline-block;padding: 3em 2em ;}
+#nav_ul li a{color: #9CA5AB;position: relative;font-size: 1.3em;}
+#nav_ul li a:before,
+#nav_ul li a:after{position: absolute;opacity: 0;transition: opacity 0.35s,transform 0.35s;}
+#nav_ul li a:before{content: '\5b';left: -20px;top: -0.3em;transform: translate(20px,0);}
+#nav_ul li a:after{content: '\5d';right: -20px;top:-0.3em;transform: translate(-20px,0);}
+#nav_ul li a:hover:before,
+#nav_ul li a:hover:after{opacity: 1;transform: translate(0,0);}
+.fixed_nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+/*首页主图的样式*/
+
+#main_img img{
+	width:120%;
+	position: absolute;
+	left: -20%;
+}
+#propaganda{
+	position: relative;
+	/*color: black;控制字体颜色*/
+	top: 0;
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	letter-spacing: 0.5em;
+} 
+#propaganda1,
+#propaganda2,
+#propaganda3,
+#propaganda .mybtn
+{
+	position: absolute;
+	width: 45%;
+	font-size: 3em;
+	left: 55%;
+}
+#propaganda1{
+	top: 30%;
+}
+#propaganda2{
+	top: 38%;
+}
+#propaganda3{
+	top: 46%;
+}
+#propaganda .mybtn{
+	font-size: 1.2em;
+    top: 60%;
+    padding: 0;
+}
+#btn1{position: absolute;top: 0;left: 0;width: 55%;}
+#btn2{position: absolute;top: 0;left: 0; width: 55%;display: block;margin-top: 12%;}
+
+/*猜你喜欢*/
+.may_like_title{
+	letter-spacing: 0.5em;
+	font-size: 2em;
+	/*color: #5BC0DE;*/
+	text-align: center;
+	padding: 35px 15px;
+}
+.may_like_img{position: relative;background-color: black;}
+.may_like_img img{width: 100%;opacity: 0.5;}
+.may_like_info{
+	position: absolute;
+	color: white;
+	width: 15%;
+	text-align: center;
+	cursor: pointer;
+}
+.may_like_info p{
+	letter-spacing: 0.5em;
+}
+
+
+/*回到顶部按钮样式*/
+.goto_top{
+	display: none;
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+	z-index: 99;
+}
+.show{
+	display: block;
+}
+.goto_top a{
+	display: inline-block;
+	font-size: 5em;
+	cursor: pointer;
+}

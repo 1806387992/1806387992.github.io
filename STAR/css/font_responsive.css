@@ -1,0 +1,39 @@
+/*响应式的字体大小相对于根节点变化*/   
+@media (min-width: 100px),
+ { 
+	body {font-size:0.8 rem;font-size:6px;} 
+	h1{font-size: 1.8 rem;font-size: 18px;}
+	h2{font-size: 1.6 rem;font-size: 16px;}
+	h3{font-size: 1.4 rem;font-size: 14px;}
+	h4{font-size: 1.2 rem;font-size: 12px;}
+	h5{font-size: 1 rem;font-size: 10px;}
+	h6{font-size: 0.8 rem;font-size: 8px;}
+}     
+@media (min-width: 640px),
+ { 
+	body {font-size:1 rem;font-size:12px;} 
+	h1{font-size: 2.2 rem;font-size: 22px;}
+	h2{font-size: 2 rem;font-size: 20px;}
+	h3{font-size: 1.8 rem;font-size: 18px;}
+	h4{font-size: 1.6 rem;font-size: 16px;}
+	h5{font-size: 1.4 rem;font-size: 14px;}
+	h6{font-size: 1.4 rem;font-size: 14px;}
+}    
+@media (min-width:960px)  { 
+	body {font-size:1.4 rem; font-size:14px; /*某些浏览器不支持rem，需要再次使用px声明font-size*/} 
+	h1{font-size: 2.8 rem;font-size: 28px;}
+	h2{font-size: 2.4 rem;font-size: 26px;}
+	h3{font-size: 2.2 rem;font-size: 22px;}
+	h4{font-size: 2 rem;font-size: 20px;}
+	h5{font-size: 1.8 rem;font-size: 18px;}
+	h6{font-size: 1.6 rem;font-size: 14px;}
+}    
+@media (min-width:1100px) { 
+	body {font-size:1.8 rem; font-size:14px; /*同上*/} 
+	h1{font-size: 3.2 rem;font-size: 36px;}
+	h2{font-size: 3 rem;font-size: 32px;}
+	h3{font-size: 2.6 rem;font-size: 28px;}
+	h4{font-size: 2.4 rem;font-size: 24px;}
+	h5{font-size: 2.2 rem;font-size: 20px;}
+	h6{font-size: 2 rem;font-size: 18px;}
+}

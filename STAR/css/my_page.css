@@ -1,0 +1,69 @@
+body{
+	background: url(../images/摄图网-正在拍照的女孩.jpg);
+}
+#nav_section{
+	width: 100%;
+	position: fixed;
+	box-shadow: 0 0.1px 3px black;
+	z-index: 999;
+}
+/*这是用来占位的*/
+#zhanwei{height: 43px;}
+
+#navigation ul{
+	/*width: 200px;*/
+	/*当浏览器窗口变小时它没有200px，错误；正解是，它被iframe给遮住了一部分*/
+	position: fixed;
+	background-color: #AAE5F7;
+	height: 300px;
+	padding: 0;
+	/*margin-left: 3%;*/
+    font-size: 1em;
+}
+#navigation ul li {
+	width: 100%;
+	cursor: pointer;
+	text-decoration: none;
+	list-style: none;
+	display: block;
+}
+#navigation ul li:first-child{
+	margin-top: 2em;
+	background-color: #93E0F5;
+}
+#navigation ul li a{
+	color: black;
+	font-weight: bold;
+	display: block;
+	padding: 0.7em 2em;
+}
+#navigation ul li:hover{
+	background-color: #93E0F5;
+}
+/*右侧content的样式*/
+#content{
+	/*width: 100%;*/
+	height: 900px;
+	border: none;
+}
+/*footer样式*/
+footer{
+	display: none; /*控制隐藏*/
+	width: 100%;
+	color: #304B5B;  /*字体颜色*/
+	display: block;
+	/*z-index: 33;*/
+	/*position: fixed;*/
+	bottom: 0;
+	background-color: #041124;
+}
+footer ul {
+	padding: 30px 0;
+}
+footer ul li{
+	text-decoration: none;
+	list-style: none;
+	display: block;
+	padding:0.4em 2em;
+}
+

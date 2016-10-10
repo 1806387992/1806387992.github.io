@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>STAR--我的首页</title>
+		
+		<link rel="stylesheet" href="css/all.css" />
+		<link rel="stylesheet" href="css/my_page.css" />
+		
+	</head>
+	<body>
+		<section id="nav_section"></section>
+		<!--因为nav浮动，下面这个div是用来在文档流中占位的-->
+		<div id="zhanwei">&nbsp;</div>
+		<!--下面是主内容-->
+		<section>
+			<div class="container">
+				<div class="row">
+				<!--左边固定不动的导航栏-->
+					<div id="navigation" class="col-md-2 col-sm-2 col-xs-2">
+						<ul>
+							<li><a id="my_home"><span><i class="fa fa-home"></i></span>&nbsp;&nbsp;首页</a></li>
+							<li><a id="my_hotimg"><span><i class="fa fa-photo"></i></span>&nbsp;&nbsp;热门图片</a></li>
+							<li><a id="my_focus"><span><i class="fa fa-eye"></i></span>&nbsp;&nbsp;特别关注 <span class="badge">12</span></a></li>
+							<li><a id="my_favorites"><span><i class="fa fa-heart"></i></span>&nbsp;&nbsp;我的收藏</a></li>
+							<li><a id="my_message"><span><i class="fa fa-paper-plane"></i></span>&nbsp;&nbsp;我的消息 <span class="badge">3</span></a></li>
+						</ul>
+					</div>
+					<!--右边不同html文件的加载处-->
+					<iframe id="content" class="col-md-8 col-sm-8 col-xs-8" src="my_home.html" scrolling="yes" ></iframe>
+					<div class="col-md-2 col-sm-2 col-xs-2"></div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+			<ul>
+				<li>作者：echo</li>
+				<li>联系电话：15898559153</li>
+				<li>家庭住址：湖南省郴州市</li>
+				<li>电子邮箱：zhang_xing1995@foxmail.com</li>
+			</ul>
+			</div>
+		</footer>
+		
+		<script type="text/javascript" src="js/jquery-3.0.0.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<script type="text/javascript" src="js/my_page.js" ></script>
+	</body>
+</html>
